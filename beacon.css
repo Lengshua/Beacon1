@@ -1,0 +1,136 @@
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 210px;   
+} 
+.text-box p{
+    margin: 10px 0 20px;/*top/left tight/bottom*/
+    font-size: 22px;    
+    color: grey;
+}
+/*button setting-contact us*/
+.hero-btn{ 
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #555;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: rgb(118, 177, 255);
+    position: relative; 
+    cursor: pointer;
+}
+.hero-btn:hover{ 
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: #fff;
+    transition: 1s;
+}
+.logo:hover, .navbar img, .icons a:hover, .navbar a:hover{
+    opacity: 70%;
+}
+/* .books{
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
+
+
+/* 
+main{
+    padding: 0 0 2em 0em;
+    margin-left: 200px;
+    background-color: #fef6c2;
+} */
+.sidenav {
+    height: 100%;  
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+  /* Main content */
+#main{   
+    margin-left: 200px;
+    min-width: 1100px;
+    max-width: 100%;
+}
+.navbar img{
+    margin:20px 20px;
+}
+nav li{
+    padding: 20px 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: large;
+}
+nav a:link{
+    color: #fef6c2;
+}
+nav a:visited{
+    color: #d2b48c;
+}
+nav a:hover{
+    color: #cc9933;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+#icon{
+    width: 32px;
+    cursor: pointer;
+    /* margin-top: 130px; */
+    bottom: 10%;
+}
+#icon:hover{
+    opacity: 40%;
+}
+
+/*
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info{
+        display: none;
+    }
+    .text-box h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    .footer{
+        display: block;
+    }
+    
+}  
+*/
